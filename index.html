@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <p class="top-label">top of page</p>
+
+  <!-- Step 2: Hero = your GIF with image map -->
+  <section class="hero">
+    <img
+      src="images/hero.gif"
+      alt="Main illustration"
+      class="hero-image"
+      usemap="#image-map"
+    />
+    <map name="image-map">
+      <area
+        alt="ig"
+        title="ig"
+        href="https://www.instagram.com"
+        coords="23,22,146,66"
+        shape="rect"
+      />
+    </map>
+  </section>
+
+  <!-- Page sections (add as many as you want) -->
+  <!--
+    SECTION TEMPLATE (copy/paste):
+
+    <section class="page-section">
+      <p class="section-label">section name</p>
+      <div class="media-stack">
+        <img src="images/your-section-image-1.png" alt="Description" class="stack-img" />
+        <img src="images/your-section-image-2.gif" alt="Description" class="stack-img" />
+      </div>
+    </section>
+  -->
+
+  <script src="script.js"></script>
+  <footer class="bottom">
+    <p class="bottom-label">bottom of page</p>
+    <p class="credit">© Your Name 2025. Artwork by you.</p>
+  </footer>
+</body>
+</html>
